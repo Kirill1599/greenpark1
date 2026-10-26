@@ -1,0 +1,25 @@
+# 1. Ядро WordPress и служебные файлы (НЕ отслеживать)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# 2. Конфиденциальные данные и настройки (НЕ отслеживать)
+wp-config.php
+.env
+.env.*
+
+# 3. Пользовательский контент и кэш (НЕ отслеживать)
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup*/
+/wp-content/*.log
+
+# 4. Плагины и темы, которые вы НЕ писали (пример)
+# Если вы не автор плагина, его не нужно версионировать
+# /wp-content/plugins/akismet/
+# /wp-content/themes/twenty*/
